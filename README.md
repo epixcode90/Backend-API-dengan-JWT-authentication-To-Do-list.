@@ -69,3 +69,31 @@ Dibangun **dari nol** tanpa framework berat seperti Spring Boot — hanya menggu
 ## 🏗️ Arsitektur
 
 ### Layered Architecture
+
+
+
+### Prinsip yang Diterapkan
+
+- **Layered Architecture** — separation of concerns
+- **Repository Pattern** — abstraksi akses data
+- **DTO Pattern** — kontrol data yang keluar/masuk
+- **Middleware Pattern** — auth check sebelum handler
+- **Singleton Pattern** — database pool
+- **Dependency Injection** — constructor injection untuk testability
+
+---
+
+## 🚀 Cara Menjalankan
+
+### Prerequisites
+
+- Java 17 atau lebih baru
+- MySQL 8.0 atau lebih baru
+- Maven 3.8+
+- IDE (IntelliJ IDEA, Eclipse, atau VS Code)
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/USERNAME/latihan-autentikasi.git
+cd latihan-autentikasi
